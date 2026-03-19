@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ace Cheats – Premium Cheats Store</title>
+  
+  <!-- Enlaza el CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<canvas id="bg-canvas"></canvas>
+
+<header>
+  <div class="logo">Ace Cheats</div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">Reviews</a>
+    <a href="#">Status</a>
+    <a href="#">Login</a>
+  </nav>
+</header>
+
+<main>
+  <h1>Welcome to<br>ACE CHEATS!</h1>
+  <p class="subtitle">The best premium cheat store on the market</p>
+
+  <div class="products-grid">
+
+    <!-- Producto 1 -->
+    <div class="product-card">
+      <h2 class="product-title">Valorant Premium</h2>
+      <div class="price">$24.99 <small>/ mes</small></div>
+      <ul class="features">
+        <li>Aimbot + RCS</li>
+        <li>ESP (Box, Skeleton, Health)</li>
+        <li>Triggerbot</li>
+        <li>Undetected since 2025</li>
+        <li>HWID Spoofer included</li>
+      </ul>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="TU_EMAIL@DE_PAYPAL.com">
+        <input type="hidden" name="item_name" value="Valorant Premium - 30 days">
+        <input type="hidden" name="amount" value="24.99">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="no_note" value="1">
+        <input type="hidden" name="no_shipping" value="1">
+        <button type="submit" class="buy-btn">Buy Now – $24.99</button>
+      </form>
+    </div>
+
+    <!-- Producto 2 -->
+    <div class="product-card">
+      <h2 class="product-title">Fortnite Elite</h2>
+      <div class="price">$19.99 <small>/ mes</small></div>
+      <ul class="features">
+        <li>Aimbot + Magic Bullet</li>
+        <li>Player ESP + Loot ESP</li>
+        <li>Building ESP</li>
+        <li>Fullbright + No Recoil</li>
+        <li>Daily updates</li>
+      </ul>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="TU_EMAIL@DE_PAYPAL.com">
+        <input type="hidden" name="item_name" value="Fortnite Elite - 30 days">
+        <input type="hidden" name="amount" value="19.99">
+        <input type="hidden" name="currency_code" value="USD">
+        <button type="submit" class="buy-btn">Buy Now – $19.99</button>
+      </form>
+    </div>
+
+    <!-- Producto 3 -->
+    <div class="product-card">
+      <h2 class="product-title">Lifetime Access Pack</h2>
+      <div class="price">$149.00 <small>once</small></div>
+      <ul class="features">
+        <li>Access to ALL current & future games</li>
+        <li>Priority support 24/7</li>
+        <li>Private updates channel</li>
+        <li>Custom features on request</li>
+      </ul>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="TU_EMAIL@DE_PAYPAL.com">
+        <input type="hidden" name="item_name" value="Ace Cheats Lifetime Pack">
+        <input type="hidden" name="amount" value="149.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <button type="submit" class="buy-btn">Buy Lifetime – $149</button>
+      </form>
+    </div>
+
+  </div>
+</main>
+
+<!-- Enlaza el JavaScript al final -->
+<script src="script.js"></script>
+
+</body>
+</html>
